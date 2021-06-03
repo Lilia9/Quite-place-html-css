@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main{
+    position: absolute;
+}
+.logo{
+    position: absolute;
+    top: 8px;
+    left: 26px;
+}
+.main-menu{
+    position: absolute;
+    width: 30%;
+    height: 15px;
+    left: 400px;
+    top: 26px;
+    display: inline-block;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+a:hover{
+    font-size: 18px;
+}
+.head-actions{
+    position: absolute;
+    left: 70%;
+    top: 26px;
+    bottom: 90.98%;
+}
+span{
+    margin: 8px;
+}
+button{
+    mix-blend-mode: normal;
+    border: 1px solid #FDBB2D;
+    box-sizing: border-box;
+    border-radius: 4px;
+    flex-direction: row;
+    padding: 10px 22px;
+    display: inline-block;
+    float: right;
+    margin: 2px;
+}
+h1, h3{
+    color: #22C1C3;
+    position: absolute;
+    left: 150px;
+}
+h1{
+    font-size: 49px;
+    top: 150px;
+}
+h3{
+    font-size: 30px;
+    top: 220px;
+}
+.shop{
+    mix-blend-mode: normal;
+    border: 1px solid #FDBB2D;
+    box-sizing: border-box;
+    border-radius: 4px;
+    flex-direction: row;
+    padding: 10px 22px;
+    position: absolute;
+    top: 310px;
+    left: 150px;
+}
+.location img {
+    width: 50%;
+    float: left;
+    margin: 1%;
+}
+.location h1{
+    color: #22C1C3;
+    position: absolute;
+    width: 432px;
+    height: 105px;
+    left: 906px;
+    top: 600px;
+}
+.location p{
+    position: absolute;
+    width: 432px;
+    height: 105px;
+    left: 906px;
+    top: 700px;
+}
+.location button{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 22px;
+    position: absolute;
+    width: 125px;
+    height: 37px;
+    left: 906px;
+    top: 780px;
+    background: rgba(255, 255, 255, 0.78);
+    mix-blend-mode: normal;
+    border: 1px solid #22C1C3;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 10px;
+    color: #22C1C3;
+}
+article{
+    background: #242533;
+    width: 1440px;
+    height: 433px;
+    top: 950px;
+    position: absolute;
+
+}
+article img{
+    position: absolute;
+    width: 264px;
+    height: 304px;
+    left: 980px;
+    top: 87px;
+}
+.quality{
+    position: absolute;
+    top: 151px;
+    color: #FDBB2D;
+    font-size: 22px;
+    width: 40%;
+    left: 235px;
+    padding: 5px;
+}
+.bestsellers{
+    position: absolute;
+    width: 1339px;
+    height: 373px;
+    top: 1383px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin:50px ;
+}
+.bestsellers h1{
+    position: absolute;
+    width: 164px;
+    height: 80px;
+    left: 587px;
+    top: 100px;
+}
+.frame{
+    position: absolute;
+    top: 120px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.frame1{
+    position: absolute;
+    width: 320px;
+    height: 287.39px;
+    top: 85.61px;
+
+}
+.frame2{
+    position: absolute;
+    width: 320px;
+    height: 287.39px;
+    left: 339px;
+    top: 85.61px;
+}
+.frame3{
+    position: absolute;
+    width: 320px;
+    height: 287.39px;
+    left: 679px;
+    top: 85.61px;
+}
+.frame4{
+    position: absolute;
+    width: 320px;
+    height: 287.39px;
+    left: 1019px;
+    top: 85.61px;
+}
+.bestsellers button{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 22px;
+    position: absolute;
+    height: 37px;
+    left: 20px;
+    top: 190px;
+    mix-blend-mode: normal;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+h5{
+    position: absolute;
+    color: #FFFFFF;
+    top: 40px;
+    left: 10px;
+}
+.bestsellers .frame p{
+    position: absolute;
+    top: 80px;
+    color: #FFFFFF;
+    font-size: 16px;
+    width: 80%;
+    left: 10px;
+    padding: 2px;
+    text-align: left;
+    line-height: 17px;
+    font-style: normal;
+    font-weight: normal;
+}
+footer{
+    position: absolute;
+    width: 1440px;
+    height: 294px;
+    left: 0px;
+    top: 2000px;
+    background-color: #242533;
+    color: #FFFFFF;
+}
+.contacts{
+    position: absolute;
+    top: 80px;
+    left: 400px;
+}
+.company{
+    position: absolute;
+    top: 80px;
+    left: 570px;
+}
+li{
+    list-style-type: none;
+    padding: 5px;
+}
+.social{
+    position: absolute;
+    top: 80px;
+    left: 740px;
+}
+.social img{
+    margin: 10px;
+}
+.newsletters{
+    position: absolute;
+    top: 80px;
+    left: 930px;
+}
